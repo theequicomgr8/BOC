@@ -1,0 +1,57 @@
+@media (max-width:768px) {
+    body {
+        background-size: auto;
+    }
+    .lgt-frm .login-page {
+        width:100%;
+        padding: 40px 20px;
+        border-width:2px;
+        float:none;
+    }
+    .backlayer .logo img {
+        max-width: 300px;
+    }
+    .dp_ful .captcha_txt.flt .form-control {
+        width: 120px;
+    }
+    .error_img:before {
+        top: 54%;
+        left: 50px;
+        font-size: 100px;
+    }
+    .dashboard .backlayer .layerLeft {
+        height:100px;
+    }
+    .dateformatbg a {
+        display:none;
+    }
+    .backlayer .layerRight {
+        padding:0px;
+    }
+    .error_page .btn.btn-greensea {
+        margin-bottom:10px !important;
+    }
+    .module-name {
+        font-size: 12px;
+        line-height: initial;
+    }
+}
+
+@media (min-width: 576px) {
+    .topbar .dropdown-list {
+        width: 20rem !important;
+    }
+    .topbar .dropdown {
+        position: relative;
+  }
+  .topbar .dropdown .dropdown-menu {
+        width: auto;
+        right: 0;
+  }
+  .topbar .dropdown-list {
+        width: 20rem !important;
+  }
+  .topbar .dropdown-list .dropdown-item .text-truncate {
+        max-width: 13.375rem;
+  }
+}
